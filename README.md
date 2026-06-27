@@ -69,9 +69,6 @@ The pipeline:
    expected value per trade, total and CAGR returns, and plots the strategy vs.
    buy-and-hold.
 
-A **train/test split** is used: data up to **2022-12-31** is treated as the training
-window, and **2023 onwards** is held out for out-of-sample testing.
-
 ## Results
 
 The strategy was run on two NSE names with contrasting price behaviour —
@@ -216,13 +213,3 @@ When interpreting the results:
   outcome, before costs and the implied-vs-realized volatility gap.
 - Before considering anything live, re-validate with **actual historical options
   data**, realistic transaction costs, and proper margin modelling.
-
-## Repository Contents
-
-| File | Description |
-| --- | --- |
-| [options_backtesting.ipynb](options_backtesting.ipynb) | Full backtest pipeline and analysis |
-| [repo_rate.csv](repo_rate.csv) | Annual RBI repo rates (from [RBI DBIE](https://data.rbi.org.in/#/dbie/searchresult)) used as the risk-free rate |
-| `KOTAK_cum_returns.png`, `KOTAK_monthly_returns.png` | KOTAKBANK result charts |
-| `ITC_cum_returns.png`, `ITC_monthly_returns.png` | ITC result charts |
-| [LICENSE](LICENSE) | License |
