@@ -74,17 +74,17 @@ The pipeline:
 The strategy was run on two NSE names with contrasting price behaviour —
 **KOTAKBANK** (a strong long-term trender) and **ITC** (long range-bound periods).
 
-### Sample metrics (KOTAKBANK, training window)
+### Sample metrics (KOTAKBANK)
 
 | Metric | Value |
 | --- | --- |
-| Total trades | 172 |
-| Win ratio | 50.58% |
-| Average win | +14.58% |
-| Average loss | −10.63% |
-| Expected value / trade | +2.12% |
-| Strategy CAGR | 16.78% |
-| Buy-and-hold CAGR | 18.44% |
+| Total trades | 213 |
+| Win ratio | 46.95% |
+| Average win | +14.66% |
+| Average loss | −10.84% |
+| Expected value / trade | +1.13% |
+| Strategy CAGR | 2.27% |
+| Buy-and-hold CAGR | 14.73% |
 
 ### KOTAKBANK — Strategy vs. Stock (cumulative)
 
@@ -101,6 +101,18 @@ returns cluster where the underlying moved little (near 0% on the x-axis), and l
 grow as the underlying moves sharply either way.
 
 ![KOTAKBANK monthly returns](KOTAK_monthly_returns.png)
+
+### Sample metrics (ITC)
+
+| Metric | Value |
+| --- | --- |
+| Total trades | 213 |
+| Win ratio | 50.23% |
+| Average win | +16.58% |
+| Average loss | −11.11% |
+| Expected value / trade | +2.8% |
+| Strategy CAGR | 36.11% |
+| Buy-and-hold CAGR | 7.53% |
 
 ### ITC — Strategy vs. Stock (cumulative)
 
